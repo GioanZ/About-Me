@@ -37,7 +37,12 @@ const BADGE_URLS = {
     php: "https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white",
     html5: "https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white",
     linux: "https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black",
-    windows: "https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white"
+    windows: "https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white",
+    transformers: "https://img.shields.io/badge/Transformers-%23FFC107.svg?style=for-the-badge&logo=huggingface&logoColor=black",
+    nlp: "https://img.shields.io/badge/NLP-%23FF6F00.svg?style=for-the-badge&logo=AmazonAWS&logoColor=white",
+    spacy: "https://img.shields.io/badge/spaCy-%2300599C.svg?style=for-the-badge&logo=spacy&logoColor=white",
+    nltk: "https://img.shields.io/badge/NLTK-%23121011.svg?style=for-the-badge&logo=python&logoColor=white",
+    roberta: "https://img.shields.io/badge/RoBERTa-%23FF4081.svg?style=for-the-badge&logo=&logoColor=white"
   };
   
   // Apply the badge URLs to the correct <img> elements

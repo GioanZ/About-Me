@@ -1,4 +1,3 @@
-/* Reset base */
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +11,6 @@ body {
   line-height: 1.4;
 }
 
-/* Simple top-right nav (no inline style) */
 #top-nav {
   position: absolute;
   top: 20px;
@@ -28,7 +26,6 @@ body {
   text-decoration: underline;
 }
 
-/* INTRO SECTION */
 #intro {
   width: 90%;
   max-width: 800px;
@@ -45,7 +42,6 @@ body {
   line-height: 1.6;
 }
 
-/* SKILL ICONS (if you use them) */
 .skill-icon,
 .skill-icon-exp,
 .skill-icon-proj {
@@ -54,7 +50,6 @@ body {
   margin-right: 10px;
 }
 
-/* EDUCATION */
 #education {
   width: 90%;
   max-width: 1000px;
@@ -72,7 +67,7 @@ body {
   align-items: flex-start;
   gap: 20px;
   margin-bottom: 30px;
-  cursor: pointer; /* indicates hoverable */
+  cursor: pointer;
   position: relative;
 }
 .edu-logo {
@@ -84,7 +79,7 @@ body {
   margin-bottom: 4px;
 }
 .edu-details {
-  display: none; /* hidden by default */
+  display: none;
 }
 .edu-block:hover .edu-details {
   display: block;
@@ -108,7 +103,6 @@ body {
   top: -10px;
 }
 
-/* TIMELINE */
 .timeline {
   width: 90%;
   max-width: 1000px;
@@ -120,7 +114,7 @@ body {
   content: "";
   position: absolute;
   width: 2px;
-  background-color: #fff; /* white line */
+  background-color: #fff;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -132,7 +126,7 @@ body {
   padding: 20px 30px;
   position: relative;
   z-index: 2;
-  cursor: pointer; /* hoverable */
+  cursor: pointer;
 }
 .left {
   left: 0;
@@ -141,7 +135,6 @@ body {
   left: 50%;
 }
 .container::before {
-  /* We'll fill background from images.js, using a CSS variable --bg-image */
   content: "";
   position: absolute;
   width: 40px;
@@ -152,7 +145,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: var(--bg-image); /* the trick */
+  background-image: var(--bg-image);
   z-index: 3;
 }
 .left::before {
@@ -169,7 +162,6 @@ body {
   box-shadow: 0 0 8px rgba(255, 255, 255, 0.1);
   margin-bottom: 40px;
 }
-/* Hide bullet points by default */
 .content ul {
   display: none;
   list-style: disc;
@@ -187,7 +179,6 @@ body {
   color: #888;
   margin-bottom: 4px;
 }
-/* Show them on .content hover */
 .content:hover ul {
   display: block;
 }
@@ -200,7 +191,6 @@ body {
   top: -10px;
 }
 
-/* PROJECTS */
 #projects {
   width: 90%;
   max-width: 1000px;
@@ -216,7 +206,6 @@ body {
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
-/* Entire card is clickable */
 .project-card {
   display: block;
   background: #181818;
@@ -224,12 +213,12 @@ body {
   padding: 20px;
   text-align: left;
   box-shadow: 0 0 8px rgba(255, 255, 255, 0.1);
-  color: #fff; /* ensure text color is white */
+  color: #fff;
   text-decoration: none;
   position: relative;
 }
 .project-card ul {
-  display: none; /* hide bullet points by default */
+  display: none;
   list-style: disc;
   margin-left: 20px;
   color: #ccc;
@@ -250,9 +239,17 @@ body {
   position: relative;
   top: -10px;
 }
+.more-projects-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  grid-column: span 2;
+}
 
 
-/* TECH STACK, GITHUB STATS, DEV QUOTE */
 #tech-stack,
 #github-stats,
 #dev-quote {
@@ -281,7 +278,6 @@ body {
   margin-top: 20px;
 }
 
-/* RESPONSIVE (small screens) */
 @media screen and (max-width: 600px) {
   .timeline::after {
     left: 20px;

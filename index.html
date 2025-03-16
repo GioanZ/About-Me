@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>My Portfolio & Resume</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="resume-website/style.css" />
     <style>
       /* Minimal inline style for top-right nav */
       #top-nav {
@@ -50,7 +50,6 @@
 
       <!-- Master -->
       <div class="edu-block" data-edu="lehigh-edu">
-        <!-- We use a placeholder; JavaScript will load the real src -->
         <img
           class="edu-logo"
           data-edu-logo="lehigh-logo"
@@ -61,7 +60,7 @@
           <p><strong>Master of Science in Financial Engineering</strong></p>
           <p>Lehigh University</p>
           <p class="edu-date">
-            (Aug 2023 - May 2025) | GPA: 3.8/4.0
+            Aug 2023 - May 2025 | GPA: 3.8/4.0
           </p>
           <p class="edu-desc">
             Relevant Coursework: Deep and Generative Learning, Optimization Methods in ML,
@@ -104,7 +103,7 @@
           <p><strong>Bachelor of Science in Computer Engineering</strong></p>
           <p>Politecnico di Torino</p>
           <p class="edu-date">
-            (Sep 2019 - Jul 2022) | Grade: 105/110
+            Sep 2019 - Jul 2022 | Grade: 105/110
           </p>
           <p class="edu-desc">
             Relevant Coursework: Databases, Algorithms & Programming, OOP,
@@ -245,7 +244,7 @@
           onclick="window.open('https://github.com/GioanZ/Portfolio-Stress-Testing-with-Deep-Generative-Models','_blank')"
           style="cursor:pointer;"
         >
-          <h3>Quantitative Risk Analyst (Personal Project)</h3>
+          <h3>Portfolio Stress Testing with Deep Generative Models (Personal Project)</h3>
           <!-- Date directly under the title -->
           <p class="proj-date">Ongoing Personal Project | Click me for the code</p>
           <ul>
@@ -268,7 +267,7 @@
 
         <!-- Project 2 -->
         <div class="project-card" onclick="showNoAccessMessage()" style="cursor:pointer;">
-          <h3>Data Scientist & Engineer (Personal Project)</h3>
+          <h3>Third Party Litigation Finance (Personal Project)</h3>
           <!-- Date under project title -->
           <p class="proj-date">Ongoing Personal Project</p>
           <ul>
@@ -282,8 +281,13 @@
             <img data-skill="numpy" alt="NumPy Badge" />
             <img data-skill="tensorflow" alt="TensorFlow Badge" />
             <img data-skill="keras" alt="Keras Badge" />
-            <img data-skill="cuda" alt="Cuda Badge" />
             <img data-skill="github" alt="GitHub Badge" />
+            <img data-skill="transformers" alt="Transformers Badge" />
+            <img data-skill="roberta" alt="RoBERTa Badge" />
+            <img data-skill="spacy" alt="spaCy Badge" />
+            <img data-skill="nltk" alt="NLTK Badge" />
+            <img data-skill="nlp" alt="NLP Badge" />
+            <img data-skill="cuda" alt="Cuda Badge" />
             <span class="more-text">And Many More +</span>
           </div>
         </div>
@@ -294,7 +298,7 @@
           onclick="window.open('https://github.com/GioanZ/Neural-networks-in-finance','_blank')"
           style="cursor:pointer;"
         >
-          <h3>Quantitative Analyst (Personal Project)</h3>
+          <h3>Neural Networks in Finance (Personal Project)</h3>
           <p class="proj-date">Sep 2024 - Dec 2024 | Click me for the code</p>
           <ul>
             <li>Developed an LSTM-MDN model for probabilistic VaR estimation using time-series financial data.</li>
@@ -316,7 +320,7 @@
 
         <!-- Project 4 -->
         <div class="project-card" onclick="showNoAccessMessage()" style="cursor:pointer;">
-          <h3>Quantitative Developer (Corporate Project)</h3>
+          <h3>Algorithmic trading (Corporate Project)</h3>
           <p class="proj-date">Jul 2023 - Jan 2024</p>
           <ul>
             <li>Programmed a trading strategy using the Backtrader library in Python for a partner company.</li>
@@ -334,6 +338,16 @@
             <span class="more-text">And Many More +</span>
           </div>
         </div>
+
+        <!-- "And Many More" Project Card -->
+        <div class="project-card more-projects-card" onclick="window.open('https://github.com/GioanZ','_blank')">
+          <h3>And Many More! 🚀<br>Take a Look on My GitHub</h3>
+          <ul>
+            Explore more of my projects on GitHub<br>
+            Click here to check them out!
+          </ul>
+        </div>
+
       </div>
     </section>
     <!-- End Projects Section -->
@@ -423,7 +437,7 @@
     <!-- End Dev Quote -->
 
     <!-- Link to images.js at the end, so DOM is ready -->
-    <script src="images.js"></script>
-    <script src="badges.js"></script>
+    <script src="resume-website/images.js"></script>
+    <script src="resume-website/badges.js"></script>
   </body>
 </html>
