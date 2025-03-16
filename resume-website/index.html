@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>My Portfolio & Resume</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      /* Minimal inline style for top-right nav */
+      #top-nav {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+      }
+      #top-nav a {
+        color: #fff;
+        text-decoration: none;
+        margin-left: 15px;
+        font-weight: bold;
+      }
+      #top-nav a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+
+    <!-- Simple Navigation in top-right corner -->
+    <nav id="top-nav">
+      <a href="#education">Education</a>
+      <a href="#work-experience">Work Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#tech-stack">Tech Stack</a>
+    </nav>
+
+    <!-- Introduction Section -->
+    <section id="intro">
+      <h1>Welcome to My Portfolio</h1>
+      <p>
+        Hello! I'm a Master's student in Financial Engineering, passionate about applying
+        Machine Learning and Artificial Intelligence to finance. Here you can find my
+        educational background, professional experience, projects, and tech stack.
+      </p>
+    </section>
+    <!-- End Introduction -->
+
+    <!-- Education Section -->
+    <section id="education">
+      <h1>Education</h1>
+
+      <!-- Master -->
+      <div class="edu-block" data-edu="lehigh-edu">
+        <!-- We use a placeholder; JavaScript will load the real src -->
+        <img
+          class="edu-logo"
+          data-edu-logo="lehigh-logo"
+          src=""
+          alt="Lehigh University Logo"
+        />
+        <div class="edu-info">
+          <p><strong>Master of Science in Financial Engineering</strong></p>
+          <p>Lehigh University</p>
+          <p class="edu-date">
+            (Aug 2023 - May 2025) | GPA: 3.8/4.0
+          </p>
+          <p class="edu-desc">
+            Relevant Coursework: Deep and Generative Learning, Optimization Methods in ML,
+            Stochastic Calculus, Data Management for Big Data, Derivatives & Risk Management,
+            Financial Optimization, Random Processes and Applications.
+          </p>
+          <div class="skills-row-exp">
+            <img data-skill="latex" alt="LaTeX Badge" />
+            <img data-skill="r" alt="R Badge" />
+            <img data-skill="markdown" alt="Markdown Badge" />
+            <img data-skill="python" alt="Python Badge" />
+            <img data-skill="pandas" alt="Pandas Badge" />
+            <img data-skill="numpy" alt="NumPy Badge" />
+            <img data-skill="matplotlib" alt="Matplotlib Badge" />
+            <img data-skill="scikitlearn" alt="Scikit-learn Badge" />
+            <img data-skill="pytorch" alt="PyTorch Badge" />
+            <img data-skill="tensorflow" alt="TensorFlow Badge" />
+            <img data-skill="keras" alt="Keras Badge" />
+            <img data-skill="hadoop" alt="Hadoop Badge" />
+            <img data-skill="spark" alt="Spark Badge" />
+            <img data-skill="cuda" alt="Cuda Badge" />
+            <img data-skill="git" alt="Git Badge" />
+            <img data-skill="github" alt="GitHub Badge" />
+            <img data-skill="gitlab" alt="GitLab Badge" />
+            <img data-skill="linux" alt="Linux Badge" />
+            <span class="more-text">And Many More +</span>
+          </div>                   
+        </div>
+      </div>
+
+      <!-- Bachelor -->
+      <div class="edu-block" data-edu="polito-edu">
+        <img
+          class="edu-logo"
+          data-edu-logo="polito-logo"
+          src=""
+          alt="Politecnico di Torino Logo"
+        />
+        <div class="edu-info">
+          <p><strong>Bachelor of Science in Computer Engineering</strong></p>
+          <p>Politecnico di Torino</p>
+          <p class="edu-date">
+            (Sep 2019 - Jul 2022) | Grade: 105/110
+          </p>
+          <p class="edu-desc">
+            Relevant Coursework: Databases, Algorithms & Programming, OOP,
+            Operating Systems, Math Analysis I, Math Analysis II, Methods for Engineers,
+            Linear Algebra & Geometry.
+          </p>
+          <div class="skills-row-exp">
+            <img data-skill="c" alt="C Badge" />
+            <img data-skill="cpp" alt="C++ Badge" />
+            <img data-skill="java" alt="Java Badge" />
+            <img data-skill="r" alt="R Badge" />
+            <img data-skill="markdown" alt="Markdown Badge" />
+            <img data-skill="latex" alt="LaTeX Badge" />
+            <img data-skill="php" alt="PHP Badge" />
+            <img data-skill="html5" alt="HTML5 Badge" />
+            <img data-skill="bash" alt="Bash Badge" />
+            <img data-skill="mysql" alt="MySQL Badge" />
+            <img data-skill="oracle" alt="Oracle Badge" />
+            <img data-skill="git" alt="Git Badge" />
+            <img data-skill="github" alt="GitHub Badge" />
+            <img data-skill="gitlab" alt="GitLab Badge" />
+            <img data-skill="linux" alt="Linux Badge" />
+            <span class="more-text">And Many More +</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Education -->
+
+    <!-- Work Experience Timeline -->
+    <h1 id="work-experience" style="text-align: center; margin-top: 50px;">
+      Work Experience
+    </h1>
+    <div class="timeline">
+      <!-- 1. Data Scientist (Lehigh) -->
+      <div class="container left" data-brand="lehigh">
+        <div class="content">
+          <h2>Data Scientist (Graduate Research Assistant)</h2>
+          <p class="date">Lehigh University | Bethlehem, PA, USA (Feb 2024 - Present)</p>
+          <ul>
+            <li>Designed and implemented data pipelines for large-scale datasets using Python.</li>
+            <li>Conducted advanced statistical analyses, enhancing risk modeling insights.</li>
+            <li>Developed machine learning models to predict risk factors with high accuracy.</li>
+            <li>Ensured data quality and supported manuscript preparation and research initiatives.</li>
+          </ul>
+          <div class="skills-row-exp">
+            <img data-skill="python" alt="Python Badge" />
+            <img data-skill="pandas" alt="Pandas Badge" />
+            <img data-skill="numpy" alt="NumPy Badge" />
+            <img data-skill="matplotlib" alt="Matplotlib Badge" />
+            <img data-skill="scikitlearn" alt="Scikit-learn Badge" />
+            <img data-skill="spark" alt="Spark Badge" />
+            <img data-skill="git" alt="Git Badge" />
+            <img data-skill="github" alt="GitHub Badge" />
+            <img data-skill="gitlab" alt="GitLab Badge" />
+            <img data-skill="linux" alt="Linux Badge" />
+            <span class="more-text">And Many More +</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2. Data Scientist (BMW) -->
+      <div class="container right" data-brand="bmw">
+        <div class="content">
+          <h2>Data Scientist (Intern)</h2>
+          <p class="date">BMW of North America | Woodcliff Lake, NJ, USA (Jun 2024 - Aug 2024)</p>
+          <ul>
+            <li>Processed over 100 billion data points from vehicle signals using Python, PySpark, and SQL.</li>
+            <li>Improved algorithm efficiency by 25% and enhanced analysis accuracy via optimized workflows.</li>
+            <li>Developed clustering algorithms to identify patterns in time-series customer data.</li>
+            <li>Provided insights into vehicle performance through presentations for technical/business teams.</li>
+          </ul>
+          <div class="skills-row-exp">
+            <img data-skill="mysql" alt="MySQL Badge" />
+            <img data-skill="python" alt="Python Badge" />
+            <img data-skill="pandas" alt="Pandas Badge" />
+            <img data-skill="numpy" alt="NumPy Badge" />
+            <img data-skill="matplotlib" alt="Matplotlib Badge" />
+            <img data-skill="scikitlearn" alt="Scikit-learn Badge" />
+            <img data-skill="spark" alt="Spark Badge" />
+            <img data-skill="git" alt="Git Badge" />
+            <img data-skill="github" alt="GitHub Badge" />
+            <img data-skill="gitlab" alt="GitLab Badge" />
+            <img data-skill="linux" alt="Linux Badge" />
+            <span class="more-text">And Many More +</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3. Backend Developer (Reply) -->
+      <div class="container left" data-brand="reply">
+        <div class="content">
+          <h2>Backend Developer (Consultant)</h2>
+          <p class="date">Reply | Milan, Italy (Nov 2022 - May 2023)</p>
+          <ul>
+            <li>Engineered and maintained data pipelines using microservices, REST APIs, and databases (Spring, Java, SQL).</li>
+            <li>Managed a team of six developers (along with a team leader) to supervise and coordinate activities.</li>
+            <li>Developed global libraries adaptable to varied scenarios, responding to changing variables.</li>
+            <li>Created JUnit tests and debugged/monitored logs on Google Cloud Platform.</li>
+            <li>Eliminated over 10% of code and optimized memory/speed performance by 15%.</li>
+            <li>Planned architectural solutions in collaboration with five teams for a major Italian bank.</li>
+          </ul>
+          <div class="skills-row-exp">
+            <img data-skill="mysql" alt="MySQL Badge" />
+            <img data-skill="java" alt="Java Badge" />
+            <img data-skill="spring" alt="Spring Badge" />
+            <img data-skill="bitbucket" alt="Bitbucket Badge" />
+            <img data-skill="postman" alt="Postman Badge" />
+            <img data-skill="jira" alt="Jira Badge" />
+            <img data-skill="confluence" alt="Confluence Badge" />
+            <img data-skill="swagger" alt="Swagger Badge" />
+            <span class="more-text">And Many More +</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4. Tutor (Politecnico di Torino) -->
+      <div class="container right" data-brand="polito">
+        <div class="content">
+          <h2>Tutor</h2>
+          <p class="date">Politecnico di Torino | Turin, Italy (Sep 2021 - Jul 2022)</p>
+          <ul>
+            <li>Guided 111 freshmen with academic support in their transition to college life.</li>
+            <li>Implemented a custom time management system to balance academics and extracurriculars.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- End Timeline -->
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h1>Projects</h1>
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div
+          class="project-card"
+          onclick="window.open('https://github.com/GioanZ/Portfolio-Stress-Testing-with-Deep-Generative-Models','_blank')"
+          style="cursor:pointer;"
+        >
+          <h3>Quantitative Risk Analyst (Personal Project)</h3>
+          <!-- Date directly under the title -->
+          <p class="proj-date">Ongoing Personal Project | Click me for the code</p>
+          <ul>
+            <li>AI-powered portfolio stress-testing using cVAE & WGAN-GP to simulate extreme market shocks.</li>
+            <li>Enhanced risk assessment with VaR, ES, and divergence metrics, bridging generative modeling with financial resilience.</li>
+          </ul>
+          <div class="skills-row-exp">
+            <img data-skill="python" alt="Python Badge" />
+            <img data-skill="pandas" alt="Pandas Badge" />
+            <img data-skill="numpy" alt="NumPy Badge" />
+            <img data-skill="matplotlib" alt="Matplotlib Badge" />
+            <img data-skill="tensorflow" alt="TensorFlow Badge" />
+            <img data-skill="keras" alt="Keras Badge" />
+            <img data-skill="cuda" alt="Cuda Badge" />
+            <img data-skill="github" alt="GitHub Badge" />
+            <img data-skill="latex" alt="LaTeX Badge" />
+            <span class="more-text">And Many More +</span>
+          </div>  
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card" onclick="showNoAccessMessage()" style="cursor:pointer;">
+          <h3>Data Scientist & Engineer (Personal Project)</h3>
+          <!-- Date under project title -->
+          <p class="proj-date">Ongoing Personal Project</p>
+          <ul>
+            <li>Deployed an NLP-based API for document analysis, providing real-time insights and predictive metrics.</li>
+            <li>Streamlined data preprocessing (structured & unstructured) for scalable, efficient model training.</li>
+            <li>Implemented ML pipeline (LLMs & NLP) to forecast outcomes and automate decisions.</li>
+          </ul>
+          <div class="skills-row-exp">
+            <img data-skill="python" alt="Python Badge" />
+            <img data-skill="pandas" alt="Pandas Badge" />
+            <img data-skill="numpy" alt="NumPy Badge" />
+            <img data-skill="tensorflow" alt="TensorFlow Badge" />
+            <img data-skill="keras" alt="Keras Badge" />
+            <img data-skill="cuda" alt="Cuda Badge" />
+            <img data-skill="github" alt="GitHub Badge" />
+            <span class="more-text">And Many More +</span>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div
+          class="project-card"
+          onclick="window.open('https://github.com/GioanZ/Neural-networks-in-finance','_blank')"
+          style="cursor:pointer;"
+        >
+          <h3>Quantitative Analyst (Personal Project)</h3>
+          <p class="proj-date">Sep 2024 - Dec 2024 | Click me for the code</p>
+          <ul>
+            <li>Developed an LSTM-MDN model for probabilistic VaR estimation using time-series financial data.</li>
+            <li>Applied Monte Carlo sampling on MDN output distributions to derive 95% VaR estimates.</li>
+          </ul>
+          <div class="skills-row-exp">
+            <img data-skill="python" alt="Python Badge" />
+            <img data-skill="pandas" alt="Pandas Badge" />
+            <img data-skill="numpy" alt="NumPy Badge" />
+            <img data-skill="matplotlib" alt="Matplotlib Badge" />
+            <img data-skill="tensorflow" alt="TensorFlow Badge" />
+            <img data-skill="keras" alt="Keras Badge" />
+            <img data-skill="cuda" alt="Cuda Badge" />
+            <img data-skill="github" alt="GitHub Badge" />
+            <img data-skill="latex" alt="LaTeX Badge" />
+            <span class="more-text">And Many More +</span>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card" onclick="showNoAccessMessage()" style="cursor:pointer;">
+          <h3>Quantitative Developer (Corporate Project)</h3>
+          <p class="proj-date">Jul 2023 - Jan 2024</p>
+          <ul>
+            <li>Programmed a trading strategy using the Backtrader library in Python for a partner company.</li>
+            <li>Implemented a technical analysis strategy for backtesting with AWS Lambda, plus reporting/analysis.</li>
+            <li>Enhanced Backtrader library functions and created a library guide.</li>
+          </ul>
+          <div class="skills-row-exp">
+            <img data-skill="python" alt="Python Badge" />
+            <img data-skill="pandas" alt="Pandas Badge" />
+            <img data-skill="numpy" alt="NumPy Badge" />
+            <img data-skill="tensorflow" alt="TensorFlow Badge" />
+            <img data-skill="keras" alt="Keras Badge" />
+            <img data-skill="cuda" alt="Cuda Badge" />
+            <img data-skill="github" alt="GitHub Badge" />
+            <span class="more-text">And Many More +</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Projects Section -->
+
+    <!-- Tech Stack Section -->
+    <section id="tech-stack">
+      <h1>Tech Stack</h1>
+      <h2>Programming Languages</h2>
+      <p>
+        <img data-skill="python" alt="Python Badge" />
+        <img data-skill="java" alt="Java Badge" />
+        <img data-skill="r" alt="R Badge" />
+        <img data-skill="c" alt="C Badge" />
+        <img data-skill="cpp" alt="C++ Badge" />
+      </p>
+
+      <h2>Data Science & Machine Learning</h2>
+      <p>
+        <img data-skill="pandas" alt="Pandas Badge" />
+        <img data-skill="numpy" alt="NumPy Badge" />
+        <img data-skill="matplotlib" alt="Matplotlib Badge" />
+        <img data-skill="scikitlearn" alt="Scikit-learn Badge" />
+        <img data-skill="pytorch" alt="PyTorch Badge" />
+        <img data-skill="tensorflow" alt="TensorFlow Badge" />
+        <img data-skill="keras" alt="Keras Badge" />
+      </p>
+
+      <h2>Cloud & Big Data</h2>
+      <p>
+        <img data-skill="aws" alt="AWS Badge" />
+        <img data-skill="googlecloud" alt="Google Cloud Badge" />
+        <img data-skill="hadoop" alt="Hadoop Badge" />
+        <img data-skill="spark" alt="Spark Badge" />
+        <img data-skill="cuda" alt="Cuda Badge" />
+      </p>
+
+      <h2>DevOps & Security</h2>
+      <p>
+        <img data-skill="bash" alt="Bash Badge" />
+        <img data-skill="jwt" alt="JWT Badge" />
+        <img data-skill="jenkins" alt="Jenkins Badge" />
+      </p>
+
+      <h2>Databases</h2>
+      <p>
+        <img data-skill="mysql" alt="MySQL Badge" />
+        <img data-skill="oracle" alt="Oracle Badge" />
+      </p>
+
+      <h2>Development & Productivity</h2>
+      <p>
+        <img data-skill="git" alt="Git Badge" />
+        <img data-skill="github" alt="GitHub Badge" />
+        <img data-skill="gitlab" alt="GitLab Badge" />
+        <img data-skill="bitbucket" alt="Bitbucket Badge" />
+        <img data-skill="postman" alt="Postman Badge" />
+        <img data-skill="jira" alt="Jira Badge" />
+        <img data-skill="confluence" alt="Confluence Badge" />
+        <img data-skill="slack" alt="Slack Badge" />
+      </p>
+
+      <h2>Others</h2>
+      <p>
+        <img data-skill="spring" alt="Spring Badge" />
+        <img data-skill="swagger" alt="Swagger Badge" />
+        <img data-skill="latex" alt="LaTeX Badge" />
+        <img data-skill="markdown" alt="Markdown Badge" />
+        <img data-skill="php" alt="PHP Badge" />
+        <img data-skill="html5" alt="HTML5 Badge" />
+        <img data-skill="linux" alt="Linux Badge" />
+        <img data-skill="windows" alt="Windows Badge" />
+      </p>
+      <p>And many more!</p>
+    </section>
+    <!-- End Tech Stack Section -->
+
+    <!-- Dev Quote -->
+    <section id="dev-quote">
+      <h1>Dev Quote</h1>
+      <p>
+        <img
+          src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical"
+          alt="Dev Quote"
+        />
+      </p>
+    </section>
+    <!-- End Dev Quote -->
+
+    <!-- Link to images.js at the end, so DOM is ready -->
+    <script src="images.js"></script>
+    <script src="badges.js"></script>
+  </body>
+</html>
