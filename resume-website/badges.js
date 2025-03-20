@@ -7,7 +7,7 @@ const BADGE_URLS = {
     cpp: "https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white",
     pandas: "https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white",
     numpy: "https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white",
-    matplotlib: "https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black",
+    matplotlib: "https://custom-icon-badges.demolab.com/badge/Matplotlib-71D291.svg?style=for-the-badge&logo=matplotlib&logoColor=fff",
     scikitlearn: "https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white",
     pytorch: "https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white",
     tensorflow: "https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white",
@@ -42,7 +42,13 @@ const BADGE_URLS = {
     nlp: "https://img.shields.io/badge/NLP-%23FF6F00.svg?style=for-the-badge&logo=AmazonAWS&logoColor=white",
     spacy: "https://img.shields.io/badge/spaCy-%2300599C.svg?style=for-the-badge&logo=spacy&logoColor=white",
     nltk: "https://img.shields.io/badge/NLTK-%23121011.svg?style=for-the-badge&logo=python&logoColor=white",
-    roberta: "https://img.shields.io/badge/RoBERTa-%23FF4081.svg?style=for-the-badge&logo=&logoColor=white"
+    roberta: "https://img.shields.io/badge/RoBERTa-%23FF4081.svg?style=for-the-badge&logo=&logoColor=white",
+    xml: "https://img.shields.io/badge/XML-767C52.svg?style=for-the-badge&logo=xml&logoColor=fff",
+    yaml: "https://img.shields.io/badge/YAML-CB171E.svg?style=for-the-badge&logo=yaml&logoColor=fff",
+    json: "https://img.shields.io/badge/JSON-000.svg?style=for-the-badge&logo=json&logoColor=fff",
+    javascript: "https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=000",
+    css: "https://img.shields.io/badge/CSS-1572B6.svg?style=for-the-badge&logo=css3&logoColor=fff",
+    motoko: "https://img.shields.io/badge/Motoko-%23FF6F00.svg?style=for-the-badge&logo=AmazonAWS&logoColor=white"
   };
   
   // Apply the badge URLs to the correct <img> elements
