@@ -12,10 +12,24 @@ body {
 }
 
 #top-nav {
-  position: absolute;
-  top: 20px;
-  right: 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: transparent;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
 }
+
+.nav-left,
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
 #top-nav a {
   color: #fff;
   text-decoration: none;
@@ -24,6 +38,10 @@ body {
 }
 #top-nav a:hover {
   text-decoration: underline;
+}
+
+body {
+  padding-top: 60px;
 }
 
 #intro {

@@ -27,11 +27,17 @@
 
     <!-- Simple Navigation in top-right corner -->
     <nav id="top-nav">
-      <a href="#education">Education</a>
-      <a href="#work-experience">Work Experience</a>
-      <a href="#projects">Projects</a>
-      <a href="#tech-stack">Tech Stack</a>
+      <div class="nav-left">
+        <a href="https://linkedin.com/in/sanchez-giovanni/" target="_blank">LinkedIn</a>
+      </div>
+      <div class="nav-right">
+        <a href="#education">Education</a>
+        <a href="#work-experience">Work Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#tech-stack">Tech Stack</a>
+      </div>
     </nav>
+    
 
     <!-- Introduction Section -->
     <section id="intro">
@@ -60,10 +66,11 @@
           <p><strong>Master of Science in Financial Engineering</strong></p>
           <p>Lehigh University</p>
           <p class="edu-date">
-            Aug 2023 - May 2025 | GPA: 3.8/4.0
+            Aug 2023 - May 2025
           </p>
           <p class="edu-desc">
             <ul>
+              <li>GPA: 3.8/4.0</li>
               <li>One of the best universities and programs in the U.S.</li>
               <li>Relevant Coursework: Deep and Generative Learning, Optimization Methods in ML,
                 Stochastic Calculus, Data Management for Big Data, Derivatives & Risk Management,
@@ -111,7 +118,7 @@
           <p class="edu-desc">
             <ul>
               <li>Grade: 105/110</li>
-              <li>One of the best universities and programs in the Italy</li>
+              <li>One of the best universities and programs in Italy</li>
               <li>Relevant Coursework: Databases, Algorithms & Programming, OOP,
                 Operating Systems, Math Analysis I, Math Analysis II, Methods for Engineers,
                 Linear Algebra & Geometry.</li>
@@ -176,7 +183,7 @@
       <div class="container right" data-brand="bmw">
         <div class="content">
           <h2>Data Scientist</h2>
-          <p class="date">BMW of North America | Woodcliff Lake, NJ, USA (Jun 2024 - Aug 2024)</p>
+          <p class="date">BMW | Woodcliff Lake, NJ, USA (Jun 2024 - Aug 2024)</p>
           <ul>
             <li>Processed over 100 billion data points from vehicle signals using Python, PySpark, and SQL.</li>
             <li>Improved algorithm efficiency by 25% and enhanced analysis accuracy via optimized workflows.</li>
@@ -234,6 +241,12 @@
       <!-- 4. Tutor (Politecnico di Torino) -->
       <div class="container right" data-brand="polito">
         <div class="content">
+          <h2>University Assistant</h2>
+          <p class="date">Politecnico di Torino | Turin, Italy (Feb 2022 - Jul 2022)</p>
+          <ul>
+            <li>Supervised and coordinated university exams for more than 1,200 students, ensuring flawless conduct and adherence to schedules.</li>
+            <li>Provided IT support for admission processes and technical troubleshooting during exams for prospective students and staff.</li>
+          </ul>
           <h2>Tutor</h2>
           <p class="date">Politecnico di Torino | Turin, Italy (Sep 2021 - Jul 2022)</p>
           <ul>
@@ -503,6 +516,6 @@
 
     <!-- Link to images.js at the end, so DOM is ready -->
     <script src="resume-website/images.js"></script>
-    <script src="resume-website/badges.js"></script>  
+    <script src="resume-website/badges.js"></script>
   </body>
 </html>
